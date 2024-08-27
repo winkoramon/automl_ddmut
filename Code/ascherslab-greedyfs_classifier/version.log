@@ -1,0 +1,11 @@
+`2.0.0` 
+- `improvements`
+    - Implement Intel Extension for Scikit-learn: blazing fast if you use Random Forest
+    - Add  your target label as a  ‘prefix’ for output filename
+    - Add ‘scaling’ function: turn on/off scaling (normalisation) during training/blind-test
+    - Add ‘resuming’ function: you can continue GreedyFS using an output file of previous run.
+    - Add ‘soft_cutoff’ function: you can continue GreedyFS if your cut-off condition does not satisfy.
+    - Deprecate ‘TerminalPlot’
+- `bug-fix`
+    - Fix ‘MCC’ to read ‘predict_proba’
+    - Fix names in algorithm list

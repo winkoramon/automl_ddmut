@@ -1,0 +1,4 @@
+,feature_name,training,blind-test,diff
+1,Hbond_total,0.153,0.126,0.027
+2,Ionic,0.211,0.126,0.085
+3,PAPAfi,0.259,0.209,0.05

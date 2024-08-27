@@ -1,0 +1,25 @@
+,Model,CV Mean RMSE (10-fold),CV Std RMSE (10-fold),CV Mean R2 (10-fold),CV Std R2 (10-fold),CV Mean Pearson (10-fold),CV Std Pearson (10-fold),Test Set,Test RMSE,Test R2,Test Pearson
+0,XGBoost,1.734,0.085,0.182,0.069,0.459,0.056,10-fold CV,,,
+1,XGBoost,,,,,,,Test Set 1,1.624,-0.327,0.074
+2,XGBoost,,,,,,,Test Set 2,1.976,-0.073,0.153
+3,XGBoost,,,,,,,Test Set 3,2.49,-0.057,0.161
+4,Linear Regression,1.928,0.072,-0.011,0.046,0.218,0.04,10-fold CV,,,
+5,Linear Regression,,,,,,,Test Set 1,1.669,-0.401,0.162
+6,Linear Regression,,,,,,,Test Set 2,2.1,-0.212,0.158
+7,Linear Regression,,,,,,,Test Set 3,2.904,-0.439,0.058
+8,Decision Tree,2.187,0.072,-0.304,0.112,0.346,0.039,10-fold CV,,,
+9,Decision Tree,,,,,,,Test Set 1,2.34,-1.754,0.125
+10,Decision Tree,,,,,,,Test Set 2,2.625,-0.893,0.054
+11,Decision Tree,,,,,,,Test Set 3,2.983,-0.518,0.154
+12,Random Forest,1.649,0.078,0.261,0.052,0.515,0.047,10-fold CV,,,
+13,Random Forest,,,,,,,Test Set 1,1.429,-0.028,0.189
+14,Random Forest,,,,,,,Test Set 2,1.888,0.021,0.198
+15,Random Forest,,,,,,,Test Set 3,2.385,0.03,0.217
+16,Gradient Boosting,1.786,0.064,0.133,0.034,0.376,0.056,10-fold CV,,,
+17,Gradient Boosting,,,,,,,Test Set 1,1.404,0.009,0.196
+18,Gradient Boosting,,,,,,,Test Set 2,1.872,0.037,0.201
+19,Gradient Boosting,,,,,,,Test Set 3,2.386,0.029,0.178
+20,Support Vector Regression,1.912,0.06,0.007,0.01,0.096,0.055,10-fold CV,,,
+21,Support Vector Regression,,,,,,,Test Set 1,1.39,0.029,0.181
+22,Support Vector Regression,,,,,,,Test Set 2,1.89,0.018,0.144
+23,Support Vector Regression,,,,,,,Test Set 3,2.421,-0.0,0.034

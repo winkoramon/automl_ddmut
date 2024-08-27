@@ -1,0 +1,12 @@
+,feature_name,training
+1,Dist_to_ligand_(CU_only),0.609
+2,Proximal,0.729
+3,ANCHOR_SCORE,0.782
+4,Dist_to_ligand_(ZN_only),0.81
+5,VDWClash,0.823
+6,ddg_duet,0.837
+7,Metal,0.837
+8,Dist_to_ligand_(CUZN_only),0.837
+9,PAPAfi,0.823
+10,delta_stability_encom,0.823
+11,PAPAcen,0.823
