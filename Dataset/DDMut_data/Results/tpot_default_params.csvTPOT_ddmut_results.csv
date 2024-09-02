@@ -1,2 +1,26 @@
 ,Method,Feat set,Model params,CV Mean RMSE (10-fold),CV Std RMSE (10-fold),CV Mean R2 (10-fold),CV Std R2 (10-fold),CV Mean Pearson (10-fold),CV Std Pearson (10-fold),Test 1 RMSE,Test 1 R2,Test 1 Pearson,Test 2 RMSE,Test 2 R2,Test 2 Pearson,Test 3 RMSE,Test 3 R2,Test 3 Pearson
-0,TPOT,all_feat,"Pipeline(steps=[('lassolarscv', LassoLarsCV(normalize=True))])",1.513,0.051,0.378,0.021,0.62,0.019,1.278,0.178,0.478,1.65,0.252,0.502,2.402,0.016,0.253
+0,TPOT,all_feat,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=XGBRegressor(base_score=None,
+                                                          booster=None,
+                                                          callbacks=None,
+                                                          colsample_bylevel=None,
+                                                          colsample_bynode=None,
+                                                          colsample_bytree=None,
+                                                          device=None,
+                                                          early_stopping_rounds=None,
+                                                          enable_categorical=False,
+                                                          eval_metric=None,
+                                                          feature_types=None,
+                                                          gamma=None,
+                                                          grow_policy=None,
+                                                          importance_type=None,
+                                                          interaction_...
+                              feature_types=None, gamma=None, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.1,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=3, max_leaves=None, min_child_weight=11,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=100, n_jobs=1,
+                              num_parallel_tree=None, random_state=42, ...))])",1.336,0.042,0.514,0.028,0.718,0.018,1.202,0.274,0.585,1.617,0.281,0.538,2.284,0.11,0.386
